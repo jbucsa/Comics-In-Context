@@ -1,14 +1,10 @@
 import React, { useContext } from "react";
 
-
 export default function RequestFormButton() {
   return (
     <div>
-      <button>
-        Click Here!
-      </button>
-      <input type="submit" value="Submit" />
-
+      <button style={buttonStyling}>Click Here!</button>
+      <input type="submit" value="Submit" style={buttonStyling} />
     </div>
-  );
-}
+  )
+};

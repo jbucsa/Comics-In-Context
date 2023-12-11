@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 import StylesContext from "./StylesContext"
-import CollectorButton from '../CollectorButton'
+import CollectorButton from './CollectorButton'
 import SubmitForm from './SubmitForm'
 
 export default function UserInterface () {
